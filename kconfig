@@ -1,0 +1,10 @@
+menu "Sensor config"
+
+config SENSOR_MOCK
+    bool "Use mock sensor instead of physical SHT45"
+    default y
+    help
+        Enable this to run without a physical SHT45 connected.
+        Disable once the sensor arrives.
+
+endmenu
