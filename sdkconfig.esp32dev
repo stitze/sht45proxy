@@ -432,6 +432,12 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
+# Sensor config
+#
+CONFIG_SENSOR_MOCK=y
+# end of Sensor config
+
+#
 # Compiler options
 #
 CONFIG_COMPILER_OPTIMIZATION_DEBUG=y

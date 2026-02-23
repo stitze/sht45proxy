@@ -1,6 +1,1 @@
-# Set to y to use the mock sensor (no physical SHT45 required).
-# Remove or set to n once the real sensor arrives.
 CONFIG_SENSOR_MOCK=y
-
-CONFIG_FREERTOS_HZ=1000
-CONFIG_LOG_DEFAULT_LEVEL_INFO=y
